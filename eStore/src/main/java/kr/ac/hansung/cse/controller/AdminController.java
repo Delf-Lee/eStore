@@ -47,8 +47,8 @@ public class AdminController {
 	public String addProduct(Model model) {
 		Product product = new Product();
 		
-		product.setName("ï¿½ï¿½Æ®ï¿½ï¿½");
-		product.setCategory("ï¿½ï¿½Ç»ï¿½ï¿½");
+		product.setName("³ëÆ®ºÏ");
+		product.setCategory("ÄÄÇ»ÅÍ");
 		model.addAttribute("product", product);
 		
 		return "addProduct";
